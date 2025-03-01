@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Store - Your Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: red;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .store-container {
+            margin-top: 30px;
+        }
+        .item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 15px;
+            display: inline-block;
+            border-radius: 10px;
+            width: 200px;
+            transition: 0.3s;
+        }
+        .item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px red;
+        }
+        .buy-button {
+            display: block;
+            background: red;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .buy-button:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Welcome to Our Minecraft Store</div>
+    <div class="store-container">
+        <div class="item">
+            <h3>VIP Rank</h3>
+            <p>$5.00</p>
+            <a href="#" class="buy-button">Buy Now</a>
+        </div>
+        <div class="item">
+            <h3>Elite Rank</h3>
+            <p>$10.00</p>
+            <a href="#" class="buy-button">Buy Now</a>
+        </div>
+        <div class="item">
+            <h3>Mystery Box</h3>
+            <p>$2.50</p>
+            <a href="#" class="buy-button">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>
